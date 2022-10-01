@@ -325,8 +325,8 @@ export default function Home() {
       return (
           <div>
             <div className={styles.description}>
-              Presale has started!!! If your address is whitelisted, Mint a Crypto
-              Dev 🥳
+              Presale has started!!! If your address is whitelisted, Mint a SMN Crypto
+               🥳
             </div>
             <button className={styles.button} onClick={presaleMint}>
               Presale Mint 🚀
@@ -348,13 +348,13 @@ export default function Home() {
   return (
       <div>
         <Head>
-          <title>Crypto Devs</title>
+          <title>SMN Crypto</title>
           <meta name="description" content="Whitelist-Dapp" />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/smn.ico" />
         </Head>
         <div className={styles.main}>
           <div>
-            <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
+            <h1 className={styles.title}>Welcome to SMN Crypto!</h1>
             <div className={styles.description}>
               Its an NFT collection for developers in Crypto.
             </div>
@@ -364,12 +364,12 @@ export default function Home() {
             {renderButton()}
           </div>
           <div>
-            <img className={styles.image} src="./cryptodevs/0.svg" />
+            <img className={styles.image} src="./smncrypto/smn.svg" />
           </div>
         </div>
 
         <footer className={styles.footer}>
-          Made with &#10084; by Crypto Devs
+          Made with &#10084; by SyrymMadinaNurti
         </footer>
       </div>
   );
