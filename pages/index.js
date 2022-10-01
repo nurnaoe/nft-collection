@@ -354,6 +354,9 @@ export default function Home() {
         </Head>
         <div className={styles.main}>
           <div>
+            <img className={styles.image} src={"./smncrypto/smn.svg"} />
+          </div>
+          <div>
             <h1 className={styles.title}>Welcome to SMN Crypto!</h1>
             <div className={styles.description}>
               Its an NFT collection for developers in Crypto.
@@ -362,9 +365,6 @@ export default function Home() {
               {tokenIdsMinted}/20 have been minted
             </div>
             {renderButton()}
-          </div>
-          <div>
-            <img className={styles.image} src="./smncrypto/smn.svg" />
           </div>
         </div>
 
